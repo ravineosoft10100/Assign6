@@ -1,0 +1,64 @@
+[{
+    "_id": {
+      "$oid": "7465377bfc8f98b0d67864e0"
+    },
+    "name": "chicken Pizza",
+    "price": "5",
+    "image": "caro1.jpg"
+  },{
+    "_id": {
+      "$oid": "7465386afc8f98b0d67864e1"
+    },
+    "name": "Maharaja Veg Pizza with extra cheese",
+    "price": "8",
+    "image": "caro2.jpg"
+  },{
+    "_id": {
+      "$oid": "746538bcfc8f98b0d67864e2"
+    },
+    "name": "chicken chilly pizza",
+    "price": "7",
+    "image": "caro3.jpg"
+  },{
+    "_id": {
+      "$oid": "746538effc8f98b0d67864e3"
+    },
+    "name": "Double cheese Margherita pizza",
+    "price": "4",
+    "image": "caro4.jpg"
+  },{
+    "_id": {
+      "$oid": "74653924fc8f98b0d67864e4"
+    },
+    "name": "Corn Veggie Delight Pizza",
+    "price": "5",
+    "image": "caro5.jpg"
+  },{
+    "_id": {
+      "$oid": "7465395ffc8f98b0d67864e5"
+    },
+    "name": "Veg Salad with extra cheese Pizza",
+    "price": "6",
+    "image": "caro6.jpg"
+  },{
+    "_id": {
+      "$oid": "74653997fc8f98b0d67864e6"
+    },
+    "name": "Mix-veg with extra cheese",
+    "price": "7",
+    "image": "caro7.jpg"
+  },{
+    "_id": {
+      "$oid": "746539c6fc8f98b0d67864e7"
+    },
+    "name": "Chicken Combo and Veg combo Pizza",
+    "price": "11",
+    "image": "caro8.jpg"
+  },{
+  "_id": {
+    "$oid": "746539c6fc8f98b0d67864e8"
+  },
+  "name": "Panner with chilly onion Pizza",
+  "price": "8",
+  "image": "caro9.jpg"
+  }]

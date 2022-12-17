@@ -1,0 +1,42 @@
+{{> header1}}
+
+
+<section>
+    <table class="table table-hover container mt-5">
+        <thead>
+            <tr>
+                <th scope="col">S.No.</th>
+                <th scope="col">Image</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each data}}
+            <tr>
+                <td>#</td>
+                <td><img src="/static/images/{{image}}" alt="" style="width: 3rem;"></td>
+                <td>{{name}}</td>
+                <td>{{price}}</td>
+                <td>{{quantity}}</td>
+                <form action="/user/remove/{{../userId}}" method="post">
+                    <input type="hidden" name="pid" value="{{_id}}">
+                    <td><input type="submit" class="btn btn-danger" value="Delete"></td>
+                </form>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    <h5 style="margin-left: 32%;">Grand Total: $<span class="text-danger">{{total}}</span></h5>
+    <div class="container">
+        <form action="/user/checkout/{{userId}}" method="post">
+            <input type="hidden" name="total" value="{{total}}">
+            <input type="submit" class="btn btn-dark text-white" style="margin-left: 85%;" value="Checkout here >">
+        </form>
+        
+    </div>
+</section>
+
+{{> footer}}
